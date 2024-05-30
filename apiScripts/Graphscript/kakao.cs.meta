@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 6bd8c5e56145bdf43b00672fb216a32f
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - DotPrefab: {fileID: 6042851789590475815, guid: 3bbd8c444e802b649b1df193c6183053, type: 3}
+  - DotGroup: {instanceID: 0}
+  - minCloseText: {instanceID: 0}
+  - maxCloseText: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
