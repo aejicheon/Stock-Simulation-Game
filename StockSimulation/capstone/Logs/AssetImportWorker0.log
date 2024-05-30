@@ -1,0 +1,492 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.13f1 (5f90a5ebde0f) revision 6262949'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Core' Language: 'ko' Physical Memory: 7868 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.13f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/capstone!!/capstone
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+59929
+Successfully changed project path to: D:/capstone!!/capstone
+D:/capstone!!/capstone
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [9540] Host "[IP] 192.168.1.108 [Port] 0 [Flags] 2 [Guid] 4176273320 [EditorId] 4176273320 [Version] 1048832 [Id] WindowsEditor(7,aeji) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [9540] Host "[IP] 192.168.1.108 [Port] 0 [Flags] 2 [Guid] 4176273320 [EditorId] 4176273320 [Version] 1048832 [Id] WindowsEditor(7,aeji) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 7 workers.
+Refreshing native plugins compatible for Editor in 137.84 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.13f1 (5f90a5ebde0f)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.13f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/capstone!!/capstone/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce MX450 (ID=0x1f97)
+    Vendor:   NVIDIA
+    VRAM:     1928 MB
+    Driver:   27.21.14.5256
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.13f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.13f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.13f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56824
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.13f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.13f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.13f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.026375 seconds.
+- Loaded All Assemblies, in  0.527 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 454 ms
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.845 seconds
+Domain Reload Profiling: 1369ms
+	BeginReloadAssembly (197ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (48ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (89ms)
+	LoadAllAssembliesAndSetupDomain (175ms)
+		LoadAssemblies (194ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (171ms)
+			TypeCache.Refresh (170ms)
+				TypeCache.ScanAssembly (154ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (845ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (774ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (580ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (3ms)
+			ProcessInitializeOnLoadAttributes (124ms)
+			ProcessInitializeOnLoadMethodAttributes (62ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.891 seconds
+Refreshing native plugins compatible for Editor in 6.06 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.889 seconds
+Domain Reload Profiling: 1778ms
+	BeginReloadAssembly (177ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (22ms)
+	RebuildCommonClasses (36ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (46ms)
+	LoadAllAssembliesAndSetupDomain (618ms)
+		LoadAssemblies (474ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (257ms)
+			TypeCache.Refresh (216ms)
+				TypeCache.ScanAssembly (191ms)
+			ScanForSourceGeneratedMonoScriptInfo (28ms)
+			ResolveRequiredComponents (12ms)
+	FinalizeReload (890ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (573ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (43ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (75ms)
+			ProcessInitializeOnLoadAttributes (390ms)
+			ProcessInitializeOnLoadMethodAttributes (48ms)
+			AfterProcessingInitializeOnLoad (11ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (19ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 6.30 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4474 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 66 unused Assets / (62.0 KB). Loaded Objects now: 4938.
+Memory consumption went from 175.1 MB to 175.1 MB.
+Total: 5.066900 ms (FindLiveObjects: 0.354000 ms CreateObjectMapping: 0.158700 ms MarkObjects: 2.827800 ms  DeleteObjects: 1.723900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 522802.518084 seconds.
+  path: Assets/CleanFlatUI/Prefabs/ModalWindow/ModalWindowRound/Medo-Naver.prefab
+  artifactKey: Guid(1a1c897f9eec8db42912970c79b28649) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CleanFlatUI/Prefabs/ModalWindow/ModalWindowRound/Medo-Naver.prefab using Guid(1a1c897f9eec8db42912970c79b28649) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4dab45c8229e2ffaa1a99629d6d03071') in 0.353413 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 294
+========================================================================
+Received Import Request.
+  Time since last request: 569.941764 seconds.
+  path: Assets/CleanFlatUI/Prefabs/ModalWindow/ModalWindowRound/Medo-Samsung.prefab
+  artifactKey: Guid(918763f4129ec244487a27370614aeba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CleanFlatUI/Prefabs/ModalWindow/ModalWindowRound/Medo-Samsung.prefab using Guid(918763f4129ec244487a27370614aeba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8041a352724dc9c812f18633e77a494b') in 0.280491 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 294
+========================================================================
+Received Import Request.
+  Time since last request: 7.029966 seconds.
+  path: Assets/CleanFlatUI/Prefabs/ModalWindow/ModalWindowRound/Medo-EcoPro.prefab
+  artifactKey: Guid(12bd73fa6cd1be0409bbd2be9a5723a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CleanFlatUI/Prefabs/ModalWindow/ModalWindowRound/Medo-EcoPro.prefab using Guid(12bd73fa6cd1be0409bbd2be9a5723a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52067f4d9bf51301e4fe5f6e6e765275') in 0.226717 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 294
+========================================================================
+Received Import Request.
+  Time since last request: 7.113000 seconds.
+  path: Assets/CleanFlatUI/Prefabs/ModalWindow/ModalWindowRound/Medo-LGEnergy.prefab
+  artifactKey: Guid(bd17f3da6545d754da889a703723eaa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CleanFlatUI/Prefabs/ModalWindow/ModalWindowRound/Medo-LGEnergy.prefab using Guid(bd17f3da6545d754da889a703723eaa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65cfbc7bc44c1e1e581db3af416af2e7') in 0.237752 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 294
+========================================================================
+Received Import Request.
+  Time since last request: 6.693448 seconds.
+  path: Assets/CleanFlatUI/Prefabs/ModalWindow/ModalWindowRound/Medo-SKHigh.prefab
+  artifactKey: Guid(5f67c96b4afa4b248b4cf2211a114687) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CleanFlatUI/Prefabs/ModalWindow/ModalWindowRound/Medo-SKHigh.prefab using Guid(5f67c96b4afa4b248b4cf2211a114687) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef659c323cac72a28a4cea079ba4d56a') in 0.221174 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 294
+========================================================================
+Received Import Request.
+  Time since last request: 6.748024 seconds.
+  path: Assets/CleanFlatUI/Prefabs/ModalWindow/ModalWindowRound/Medo-SamsungBio.prefab
+  artifactKey: Guid(515a3fb3f08e410439448c5720e23237) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CleanFlatUI/Prefabs/ModalWindow/ModalWindowRound/Medo-SamsungBio.prefab using Guid(515a3fb3f08e410439448c5720e23237) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28237c2a1cbd101cc10f88569ecd34dd') in 0.236750 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 294
+========================================================================
+Received Import Request.
+  Time since last request: 6.685567 seconds.
+  path: Assets/CleanFlatUI/Prefabs/ModalWindow/ModalWindowRound/Medo-PoscoHoldings.prefab
+  artifactKey: Guid(082cbfeeec2d3014ab085f5e88cbbf7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CleanFlatUI/Prefabs/ModalWindow/ModalWindowRound/Medo-PoscoHoldings.prefab using Guid(082cbfeeec2d3014ab085f5e88cbbf7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02663ef218da98f4f3fb51359ad0ade8') in 0.237618 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 294
+========================================================================
+Received Import Request.
+  Time since last request: 6.311965 seconds.
+  path: Assets/CleanFlatUI/Prefabs/ModalWindow/ModalWindowRound/Medo-HyunDai.prefab
+  artifactKey: Guid(2cdf339a7211ffe41b5dcf48e8091982) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CleanFlatUI/Prefabs/ModalWindow/ModalWindowRound/Medo-HyunDai.prefab using Guid(2cdf339a7211ffe41b5dcf48e8091982) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1df7d3f6b4273c30d762ff849111e234') in 0.237232 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 294
+========================================================================
+Received Import Request.
+  Time since last request: 5.912950 seconds.
+  path: Assets/CleanFlatUI/Prefabs/ModalWindow/ModalWindowRound/Medo-LS.prefab
+  artifactKey: Guid(1a949c35d6fc88340bc3a7e238643312) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CleanFlatUI/Prefabs/ModalWindow/ModalWindowRound/Medo-LS.prefab using Guid(1a949c35d6fc88340bc3a7e238643312) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2eb3c138924b32c786d0d3af2a7f2bb') in 0.241619 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 294
+========================================================================
+Received Import Request.
+  Time since last request: 6.709276 seconds.
+  path: Assets/CleanFlatUI/Prefabs/ModalWindow/ModalWindowRound/Medo-SamsungSDI.prefab
+  artifactKey: Guid(4b5bb578f6e2fd2469d9db79ce686555) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CleanFlatUI/Prefabs/ModalWindow/ModalWindowRound/Medo-SamsungSDI.prefab using Guid(4b5bb578f6e2fd2469d9db79ce686555) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82c28932958f1d902f2d29afa200de49') in 0.235374 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 294
+========================================================================
+Received Import Request.
+  Time since last request: 6.683944 seconds.
+  path: Assets/CleanFlatUI/Prefabs/ModalWindow/ModalWindowRound/Medo-KIA.prefab
+  artifactKey: Guid(a17b086803450994688da9ca79209f17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CleanFlatUI/Prefabs/ModalWindow/ModalWindowRound/Medo-KIA.prefab using Guid(a17b086803450994688da9ca79209f17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d60891171b9a415ee84c31fe51fb35f') in 0.240132 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 294
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.735 seconds
+Refreshing native plugins compatible for Editor in 6.08 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.621 seconds
+Domain Reload Profiling: 2353ms
+	BeginReloadAssembly (270ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (15ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (1ms)
+		CreateAndSetChildDomain (58ms)
+	RebuildCommonClasses (48ms)
+	RebuildNativeTypeToScriptingClass (20ms)
+	initialDomainReloadingComplete (49ms)
+	LoadAllAssembliesAndSetupDomain (344ms)
+		LoadAssemblies (449ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (56ms)
+			TypeCache.Refresh (16ms)
+				TypeCache.ScanAssembly (4ms)
+			ScanForSourceGeneratedMonoScriptInfo (23ms)
+			ResolveRequiredComponents (16ms)
+	FinalizeReload (1621ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (486ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (30ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (86ms)
+			ProcessInitializeOnLoadAttributes (325ms)
+			ProcessInitializeOnLoadMethodAttributes (33ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (20ms)
+Refreshing native plugins compatible for Editor in 6.67 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4448 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 38 unused Assets / (37.3 KB). Loaded Objects now: 4946.
+Memory consumption went from 166.5 MB to 166.5 MB.
+Total: 3.039200 ms (FindLiveObjects: 0.387000 ms CreateObjectMapping: 0.175100 ms MarkObjects: 2.410500 ms  DeleteObjects: 0.064600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 42.344121 seconds.
+  path: Assets/CleanFlatUI/Prefabs/ModalWindow/ModalWindowRound/Medo-Naver.prefab
+  artifactKey: Guid(1a1c897f9eec8db42912970c79b28649) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CleanFlatUI/Prefabs/ModalWindow/ModalWindowRound/Medo-Naver.prefab using Guid(1a1c897f9eec8db42912970c79b28649) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3890af642e954ce57d47f283b7ae91ce') in 0.272421 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 294
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.639 seconds
+Refreshing native plugins compatible for Editor in 6.08 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.200 seconds
+Domain Reload Profiling: 1835ms
+	BeginReloadAssembly (227ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (10ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (45ms)
+	RebuildCommonClasses (40ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (41ms)
+	LoadAllAssembliesAndSetupDomain (312ms)
+		LoadAssemblies (409ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (45ms)
+			TypeCache.Refresh (18ms)
+				TypeCache.ScanAssembly (4ms)
+			ScanForSourceGeneratedMonoScriptInfo (15ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (1200ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (461ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (39ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (74ms)
+			ProcessInitializeOnLoadAttributes (287ms)
+			ProcessInitializeOnLoadMethodAttributes (44ms)
+			AfterProcessingInitializeOnLoad (13ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (24ms)
+Refreshing native plugins compatible for Editor in 4.83 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4448 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 38 unused Assets / (36.4 KB). Loaded Objects now: 4950.
+Memory consumption went from 168.4 MB to 168.4 MB.
+Total: 2.993000 ms (FindLiveObjects: 0.306700 ms CreateObjectMapping: 0.149400 ms MarkObjects: 2.466900 ms  DeleteObjects: 0.068100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 25.374826 seconds.
+  path: Assets/CleanFlatUI/Prefabs/ModalWindow/ModalWindowRound/Medo-PoscoFuture.prefab
+  artifactKey: Guid(7abbcdb79631c1940815a6bc04a55cc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CleanFlatUI/Prefabs/ModalWindow/ModalWindowRound/Medo-PoscoFuture.prefab using Guid(7abbcdb79631c1940815a6bc04a55cc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1b61bac34885710165c3fa7caa5778c') in 0.285620 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 294
+========================================================================
+Received Import Request.
+  Time since last request: 1.938670 seconds.
+  path: Assets/CleanFlatUI/Prefabs/ModalWindow/ModalWindowRound/Medo-KB.prefab
+  artifactKey: Guid(a7f56f894b6b61e49a042de46ecfccb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CleanFlatUI/Prefabs/ModalWindow/ModalWindowRound/Medo-KB.prefab using Guid(a7f56f894b6b61e49a042de46ecfccb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2053e9b05f8e3a99a1acdd778a70face') in 0.238016 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 294
+========================================================================
+Received Import Request.
+  Time since last request: 5.281951 seconds.
+  path: Assets/CleanFlatUI/Prefabs/ModalWindow/ModalWindowRound/Medo-HyunDaiMovius.prefab
+  artifactKey: Guid(c07c3d05ec4aead49a46492b18ce2f52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CleanFlatUI/Prefabs/ModalWindow/ModalWindowRound/Medo-HyunDaiMovius.prefab using Guid(c07c3d05ec4aead49a46492b18ce2f52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1856bb094e57ab38b9c56c957b3b9727') in 0.220966 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 294
+========================================================================
+Received Import Request.
+  Time since last request: 7.315736 seconds.
+  path: Assets/CleanFlatUI/Prefabs/ModalWindow/ModalWindowRound/Medo-Seltrion.prefab
+  artifactKey: Guid(4552a1a3b2492b54f9b12e786db81d04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CleanFlatUI/Prefabs/ModalWindow/ModalWindowRound/Medo-Seltrion.prefab using Guid(4552a1a3b2492b54f9b12e786db81d04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '794459703f4b0e9cefd86c7cca40963f') in 0.225374 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 294
+========================================================================
+Received Import Request.
+  Time since last request: 5.579003 seconds.
+  path: Assets/CleanFlatUI/Prefabs/ModalWindow/ModalWindowRound/Medo-SamsungMulsan.prefab
+  artifactKey: Guid(a323bba1ae1a98747ac10859fdddb329) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CleanFlatUI/Prefabs/ModalWindow/ModalWindowRound/Medo-SamsungMulsan.prefab using Guid(a323bba1ae1a98747ac10859fdddb329) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00a7e9529ab7f140112d69c0d88ee157') in 0.228634 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 294
+========================================================================
+Received Import Request.
+  Time since last request: 7.525002 seconds.
+  path: Assets/CleanFlatUI/Prefabs/ModalWindow/ModalWindowRound/Medo-Kakao.prefab
+  artifactKey: Guid(feac31797cdb2954881dd90818e87396) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CleanFlatUI/Prefabs/ModalWindow/ModalWindowRound/Medo-Kakao.prefab using Guid(feac31797cdb2954881dd90818e87396) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82e2bf72dfdb993e0e1a41c16a9d1abf') in 0.219633 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 294
+========================================================================
+Received Import Request.
+  Time since last request: 5.955199 seconds.
+  path: Assets/CleanFlatUI/Prefabs/ModalWindow/ModalWindowRound/Medo-Sinhan.prefab
+  artifactKey: Guid(504c801cbff42a643b70a2f6d7b6f1f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CleanFlatUI/Prefabs/ModalWindow/ModalWindowRound/Medo-Sinhan.prefab using Guid(504c801cbff42a643b70a2f6d7b6f1f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63dcc58da5dcd450d5e45151ab3e48d6') in 0.235722 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 294
+========================================================================
+Received Import Request.
+  Time since last request: 7.098909 seconds.
+  path: Assets/CleanFlatUI/Prefabs/ModalWindow/ModalWindowRound/Medo-LGjun.prefab
+  artifactKey: Guid(84e6822687837ae478937503e0a622b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CleanFlatUI/Prefabs/ModalWindow/ModalWindowRound/Medo-LGjun.prefab using Guid(84e6822687837ae478937503e0a622b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe2d91dd2b8da10a2447d89fd4c1c07e') in 0.251042 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 294
+========================================================================
+Received Import Request.
+  Time since last request: 6.631305 seconds.
+  path: Assets/CleanFlatUI/Prefabs/ModalWindow/ModalWindowRound/Medo-Samsunglife.prefab
+  artifactKey: Guid(92b1972cd994bb448a0c96eed58f431b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CleanFlatUI/Prefabs/ModalWindow/ModalWindowRound/Medo-Samsunglife.prefab using Guid(92b1972cd994bb448a0c96eed58f431b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fbed88c99c3b0a27a07daff7aee9603') in 0.232444 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 294
